@@ -1,0 +1,456 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#4d9962">
+	<RelativeLayout 
+        android:id="@+id/headingAddProfile" 
+    	android:layout_width="match_parent"
+    	android:layout_height="40dp"
+    	android:background="#000000"
+     	>
+     	<TextView 
+     	    android:id="@+id/headingTextAddProfile"
+     	    android:layout_width="wrap_content"
+    		android:layout_height="match_parent"
+     	    android:text = "Profile"
+     	  	android:textSize="20sp"
+     	    android:gravity="center_vertical"
+     	    android:paddingLeft="10dp"
+    		android:textColor = "#FFFFFF"
+    		android:layout_alignParentLeft="true"/>
+     	<Button 
+     	    android:id="@+id/saveButtonPro"
+     	    android:layout_width="34dp"
+     	    android:layout_height="34dp"
+     	    android:layout_alignParentRight="true"
+     	    android:layout_marginRight="25dp"
+     	    android:padding="3dp"
+     	    android:layout_margin="3dp"
+     	   
+     	    android:background="@drawable/save_profile"/>
+     	
+	 </RelativeLayout>
+<ScrollView 
+    android:id="@+id/scrollLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+	<LinearLayout 		
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"	 
+	    android:layout_marginTop="20dp"   
+	    
+	     >
+		  <EditText
+		        android:id="@+id/firstName"
+		       	android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="First Name *"
+		        android:maxLength="25"
+		        android:layout_margin="10dp"
+		        android:padding="7dp"
+		         android:singleLine="true"
+		        android:imeOptions="actionNext"
+		        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ ஃஅஆஇஈஉஊஎஏஐஒஓ ஔககாகிகீகுகூகெகேகைகொகோ கௌங்ஙஙா ஙிஙீஙுஙூஙெேஙைஙொஙோஙௌச்சசாசிசீசுசூசெசேசைசொசோசௌஞ்ஞஞாஞிஞீஞுஞூஞெஞேஞைஞொஞோஞௌட்டடாடிடீடுடூடெடேடைடொடோடௌண்ணணாணிணீணுணூணெணேணைணொணோணௌத்ததாதிதீதுதூதெதேதைதொதோதௌந்நநாநிநீநுநூநெேநைநொநோநௌப்பபாபிபீபுபூபெபேபைபொபோபௌம்மமாமிமீமுமூமெேமைமொமோமௌய்யயாயியீயுயூயெயேயையொயோயௌர்ரராரிரீருரூரெரேரைரொரோரௌல்லலாலிலீலுலூலெலேலைலொலோலௌவ்வவாவிவீவுவூவெவேவைவொவோவௌழ்ழழாழிழீழுழூழெழேழைழொழோழௌள்ளளாளிளீளுளூளெளேளைளொளோளௌற்றறாறிறீறுறூறெறேறைறொறோறௌன்னனானினீனுனூனெனேனைனொனோனௌ"
+		        android:background="@drawable/rounded_edittext" />
+	
+		     <LinearLayout
+		         android:layout_width="match_parent"
+		         android:layout_height="wrap_content"
+		         android:orientation="horizontal" >
+		     
+		        <LinearLayout
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:orientation="vertical" 
+		            android:layout_weight="3" >
+
+				    <EditText
+				        android:id="@+id/lastName"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:hint="Last Name"
+				        android:maxLength="25"
+				        android:layout_margin="10dp"
+				        android:padding="7dp"
+				         android:singleLine="true"
+				        android:imeOptions="actionNext"
+				        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ ஃஅஆஇஈஉஊஎஏஐஒஓ ஔககாகிகீகுகூகெகேகைகொகோ கௌங்ஙஙா ஙிஙீஙுஙூஙெேஙைஙொஙோஙௌச்சசாசிசீசுசூசெசேசைசொசோசௌஞ்ஞஞாஞிஞீஞுஞூஞெஞேஞைஞொஞோஞௌட்டடாடிடீடுடூடெடேடைடொடோடௌண்ணணாணிணீணுணூணெணேணைணொணோணௌத்ததாதிதீதுதூதெதேதைதொதோதௌந்நநாநிநீநுநூநெேநைநொநோநௌப்பபாபிபீபுபூபெபேபைபொபோபௌம்மமாமிமீமுமூமெேமைமொமோமௌய்யயாயியீயுயூயெயேயையொயோயௌர்ரராரிரீருரூரெரேரைரொரோரௌல்லலாலிலீலுலூலெலேலைலொலோலௌவ்வவாவிவீவுவூவெவேவைவொவோவௌழ்ழழாழிழீழுழூழெழேழைழொழோழௌள்ளளாளிளீளுளூளெளேளைளொளோளௌற்றறாறிறீறுறூறெறேறைறொறோறௌன்னனானினீனுனூனெனேனைனொனோனௌ"
+				        android:background="@drawable/rounded_edittext" />
+	      
+	      			<EditText
+				        android:id="@+id/shopName"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:hint="Shop Name"
+				        android:maxLength="100"
+				        android:layout_margin="10dp"
+				        android:padding="7dp"
+				        android:textColor="#2c2c2c"
+				        android:singleLine="true"
+				        android:imeOptions="actionNext"
+				        android:background="@drawable/rounded_edittext" />
+	      			
+	      			<EditText
+				        android:id="@+id/minOrder"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:hint="Minimum Order"
+				        android:maxLength="5"
+				        android:layout_margin="10dp"
+				        android:padding="7dp"
+				        android:singleLine="true"
+				        android:textColor="#2c2c2c"
+				        android:inputType="number"
+				        android:imeOptions="actionNext"
+				        android:background="@drawable/rounded_edittext" />
+	      			<EditText
+				        android:id="@+id/mobileNumber"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:hint="Mobile Number *"
+				        android:maxLength="10" 
+				        android:inputType="number"
+				        android:singleLine="true"
+				        android:textColor="#2c2c2c"
+				        android:editable="false"
+				        android:layout_margin="10dp"
+				        android:padding="7dp"
+				        android:imeOptions="actionNext"
+				        android:background="@drawable/rounded_edittext"/>
+	       
+	      			<!-- <TextView
+				        android:id="@+id/categories"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:hint="Chose category *"
+				        android:maxLength="25"
+				        android:layout_margin="10dp"
+				        android:textColor="#2c2c2c"
+				        android:textSize="18dp"
+				        android:padding="7dp"
+				        android:singleLine="true"
+				        android:imeOptions="actionNext"
+				        android:background="@drawable/rounded_edittext" /> -->
+	      		
+
+			    </LinearLayout>
+		         
+		         <ImageView
+			        android:id="@+id/profilePicture"
+			        android:layout_width="100dp"
+			        android:layout_height="100dp"
+			        android:hint="profilePicture"
+			        android:paddingRight="10dp"
+			        
+			        android:src="@drawable/upload" />
+		    </LinearLayout>
+		    <RelativeLayout
+	      	             android:id="@+id/ChoseProfileType"
+				         android:layout_width="match_parent"
+				         android:paddingLeft="15dp"
+				         android:layout_height="wrap_content" 
+				         >
+		          
+		        <TextView 
+		             android:id="@+id/TextviewProfile"
+		            android:layout_width="wrap_content"
+		            android:orientation="horizontal" 
+		             android:text="Type:" 
+		             android:paddingTop="15dp"
+		            android:layout_height="wrap_content" 
+		            />
+			    
+		       <RadioGroup
+		            android:id="@+id/radioProfile"
+		            android:layout_width="wrap_content"
+		            android:paddingLeft="5dp"
+		             android:layout_toRightOf="@+id/TextviewProfile"
+		            android:orientation="horizontal" 
+		            android:layout_height="wrap_content" >
+		
+		        <RadioButton
+		            android:id="@+id/radioFarmer"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="Farmer" 
+		             android:checked="true" />
+		
+		        <RadioButton
+		            android:id="@+id/radioSeller"
+		             android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		             android:text="Retailer" />
+		        <RadioButton
+		            android:id="@+id/radioFpo"
+		             android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		          
+		           
+		            android:text="FPO" />
+		
+		    </RadioGroup>
+		</RelativeLayout>
+		    <RelativeLayout 
+		          android:id="@+id/ChoseProfileTypeCategories"
+				         android:layout_width="match_parent"
+				         android:paddingLeft="1dp"
+				         android:layout_height="wrap_content" >
+		        <TextView
+				        android:id="@+id/categories"
+				        android:layout_width="match_parent"
+				        android:layout_height="wrap_content"
+				        android:hint="Choose category *"
+				        android:maxLength="25"
+				        android:layout_margin="5dp"
+				        android:textColor="#2c2c2c"
+				        android:textSize="18dp"
+				        android:padding="7dp"
+				        android:singleLine="true"
+				        android:background="@drawable/rounded_edittext" />
+		    </RelativeLayout> 	
+		    <RelativeLayout
+	      	             android:id="@+id/ChoseDeleiveryType"
+				         android:layout_width="match_parent"
+				         android:paddingLeft="15dp"
+				         android:layout_height="wrap_content" 
+				         >
+		         
+		        <TextView 
+		             android:id="@+id/TextviewTitle"
+		            android:layout_width="wrap_content"
+		            android:orientation="horizontal" 
+		             android:text="Type of Delivery:" 
+		             android:paddingTop="15dp"
+		            android:layout_height="wrap_content" 
+		            />
+			   
+		       <RadioGroup
+		            android:id="@+id/radioDelivery"
+		            android:layout_width="wrap_content"
+		            android:paddingLeft="5dp"
+		            android:layout_toRightOf="@+id/TextviewTitle"
+		            android:orientation="horizontal" 
+		            android:layout_height="wrap_content" >
+		
+		        <RadioButton
+		            android:id="@+id/radioDistrict"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="District" 
+		             android:checked="true" />
+		
+		        <RadioButton
+		            android:id="@+id/radioPincode"
+		             android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:paddingLeft="5dp"
+		            android:text="Pincode" />
+		
+		    </RadioGroup>
+		</RelativeLayout>
+   
+	      	<RelativeLayout
+	      	             android:id="@+id/choselocationLayout"
+				         android:layout_width="match_parent"
+				         android:layout_height="wrap_content" 
+				         >
+	      			<AutoCompleteTextView
+				        android:id="@+id/choselocation"
+				        android:layout_width="250dp"
+				        android:layout_height="wrap_content"
+				        android:maxLength="6"
+				        android:inputType="number"
+				        android:layout_marginLeft="10dp"
+				        android:padding="7dp"
+				        android:textColorHint="#969696"
+				        android:hint="@string/pincode"
+				        android:singleLine="true"
+				        android:imeOptions="actionNext"
+				        android:background="@drawable/rounded_edittext" />
+
+	      			<Button
+	      			    android:id="@+id/AddPincode"
+	      			    android:layout_width="40dp"
+	      			    android:layout_height="40dp"
+	      			    android:layout_alignBottom="@+id/choselocation"
+	      			    android:layout_toRightOf="@+id/choselocation"
+	      			    android:background="@drawable/ic_add_circle_black_48dp"
+	      			      />
+	      		  	</RelativeLayout>
+	      		  		
+	      		  	<RelativeLayout
+	      	             android:id="@+id/listLayout"
+				         android:layout_width="match_parent"
+				         android:layout_height="wrap_content" 
+				         android:paddingLeft="10dp"
+				        android:layout_marginTop="10dp"
+				         android:paddingTop="3dp"
+				         android:paddingRight="15dp"    
+				         >	
+	      			<ListView 
+	      			    android:id="@+id/list"
+	      			     android:background="#ffffff"
+	      			    android:layout_width="match_parent"
+	      			    android:layout_height="150dp"
+	      			  
+	      			    >
+	      			 </ListView>
+	      			</RelativeLayout>
+	      			
+	    	
+	      			
+	      			
+<!-- 
+		     <LinearLayout
+		         android:id="@+id/locationLayout"
+		         android:layout_width="match_parent"
+		         android:layout_height="wrap_content"
+		         android:orientation="horizontal" >
+		         <TextView 
+		             android:id="@+id/detectCurrentLocation"
+		             android:layout_width="wrap_content" 
+		             android:layout_height="wrap_content" 
+		             
+		             android:layout_margin="10dp"
+		             android:paddingLeft="10dp"
+				     android:padding="5dp"
+		             android:layout_gravity="left|center_vertical"
+		             android:textSize="16sp"
+		             android:textColor="#000000"
+		             android:text="Detect Current Location"/>
+			     <ImageView
+			        android:id="@+id/locationChangeId"
+			        android:layout_width="80dp"
+			        android:layout_height="30dp"
+			        
+			        android:background="@drawable/off_button"
+			        android:layout_marginLeft="10dp" 
+			       android:visibility="gone"
+			        android:layout_gravity="center|right"/>
+			     <ToggleButton 
+			        android:id="@+id/locationChangeToggle"
+			        android:layout_width="80dp"
+			        android:layout_height="30dp"
+			        android:background="@drawable/toggle_button"   
+			        android:paddingLeft="5dp"
+			        android:layout_margin="10dp"
+			        android:textOn=""
+			        android:textOff=""
+			         
+			        android:focusable="false"
+			        android:focusableInTouchMode="false"
+			        android:layout_centerVertical="true"/>
+			</LinearLayout>     
+	      	<EditText
+			        android:id="@+id/pincode1"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:hint="Pincode" 
+			        android:maxLength="6"
+			        android:layout_margin="10dp"
+			        android:padding="5dp"
+			        android:inputType="number"
+			        android:background="@drawable/rounded_edittext"
+			        android:drawableRight="@drawable/off" />
+-->	      	
+	     <FrameLayout
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		
+			android:layout_weight="1"
+     		>
+
+	   		<EditText
+				android:id="@+id/pincode"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:hint="Pincode" 
+			    android:maxLength="6"
+			    android:layout_margin="10dp"
+				android:padding="7dp"  
+			    android:inputType="number"
+			    android:background="@drawable/rounded_edittext"
+			    />
+		    <Button
+	        android:id="@+id/locationButton"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="50dp"
+	        android:layout_height="30dp"
+	        android:layout_weight="1"
+	        android:background="@drawable/off" 
+	        android:layout_gravity="right|center_vertical"
+	        android:layout_marginBottom="2dp"
+	        android:layout_marginTop="2dp"
+	        android:layout_marginRight="20dp"
+	         />
+
+        </FrameLayout>
+
+	     <EditText
+	        android:id="@+id/city"
+	        android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="City" 
+			android:maxLength="80"
+			android:layout_margin="10dp"
+			android:padding="7dp"
+			android:singleLine="true"
+			android:imeOptions="actionNext"
+			android:background="@drawable/rounded_edittext" />
+	     <EditText
+	        android:id="@+id/district"
+	        android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="District" 
+			android:maxLength="80"
+			android:layout_margin="10dp"
+			android:padding="7dp"
+			android:singleLine="true"
+			android:imeOptions="actionNext"
+			android:background="@drawable/rounded_edittext" />
+	     <EditText
+	        android:id="@+id/addressEditText"
+	        android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+	        android:hint="Address"
+	        android:maxLength="256"
+	        android:layout_margin="10dp"
+	        android:padding="7dp"
+	        android:gravity="top|left"
+	        android:lines="4"	
+	        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\n 1234567890~!@#$%^*()_+{}:>?|`-=[];',./\ஃஅஆஇஈஉஊஎஏஐஒஓ ஔககாகிகீகுகூகெகேகைகொகோ கௌங்ஙஙா ஙிஙீஙுஙூஙெேஙைஙொஙோஙௌச்சசாசிசீசுசூசெசேசைசொசோசௌஞ்ஞஞாஞிஞீஞுஞூஞெஞேஞைஞொஞோஞௌட்டடாடிடீடுடூடெடேடைடொடோடௌண்ணணாணிணீணுணூணெணேணைணொணோணௌத்ததாதிதீதுதூதெதேதைதொதோதௌந்நநாநிநீநுநூநெேநைநொநோநௌப்பபாபிபீபுபூபெபேபைபொபோபௌம்மமாமிமீமுமூமெேமைமொமோமௌய்யயாயியீயுயூயெயேயையொயோயௌர்ரராரிரீருரூரெரேரைரொரோரௌல்லலாலிலீலுலூலெலேலைலொலோலௌவ்வவாவிவீவுவூவெவேவைவொவோவௌழ்ழழாழிழீழுழூழெழேழைழொழோழௌள்ளளாளிளீளுளூளெளேளைளொளோளௌற்றறாறிறீறுறூறெறேறைறொறோறௌன்னனானினீனுனூனெனேனைனொனோனௌ"       
+	        android:background="@drawable/rounded_edittext" />
+	      		     
+	     
+	     <EditText
+	        android:id="@+id/description"
+	        android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+	        android:hint="Add some description"
+	        android:layout_margin="10dp"
+	        android:padding="7dp"
+	       android:imeOptions="actionDone"
+	        android:gravity="top|left"
+	        android:lines="4"	        
+	        android:background="@drawable/rounded_edittext" />
+	     <TextView
+	     
+	        android:layout_width="match_parent"
+		    android:layout_height="10dp"
+	        android:hint="Add some description"
+	        android:layout_margin="10dp"
+	        android:padding="7dp"
+	        android:text=" "
+	        android:gravity="top|left"
+	        android:lines="4"	        
+	        />
+	     
+	
+	</LinearLayout>
+	
+</ScrollView>	
+</LinearLayout>

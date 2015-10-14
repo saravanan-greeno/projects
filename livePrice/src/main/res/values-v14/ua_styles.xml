@@ -1,0 +1,21 @@
+<resources>
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+ 	<style name="UserAuthAppBaseTheme" parent="android:Theme.Holo">
+        API 14 theme customizations can go here.
+        <item name="android:actionBarStyle">@style/UserAuthMyActionBar</item>      
+    </style>
+    
+<!--     Custom Action Bar Style for Login -->
+    <style name="UserAuthMyActionBar"
+           parent="android:Widget.ActionBar">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:displayOptions"></item>
+    </style>
+    
+    
+</resources>

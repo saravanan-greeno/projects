@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/projects/profileModule/build/intermediates/bundles/debug/res/values/values.xml -->
+    <eat-comment/>
+    <string name="app_name">ProfileModule</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="invalid_data">Invalid Pin Number!</string>
+    <string name="no_internet_msg">No internet connection!</string>
+    <string name="pincode">Delivery Pincode/District*</string>
+</resources>

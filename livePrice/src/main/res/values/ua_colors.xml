@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <item name="login_et_border" type="color">#25aae1</item>
+    <item name="mobile_pwd_text_color" type="color">#25aae1</item>
+    <item name="forgot_pwd_text" type="color">#1397ce</item>
+    <item name="skip_text" type="color">#ff8800</item>
+    
+    <item name="custom_blue" type="color">#25aae1</item>
+    <item name="user_policy_content_text_color" type="color">#666666</item>
+    
+</resources>

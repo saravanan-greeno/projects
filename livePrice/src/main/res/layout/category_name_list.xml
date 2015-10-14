@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FBEEDB"
+    >
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+        
+        <TextView 
+            android:id="@+id/categoryListHeadText"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Category List"
+            android:textColor="#4D9961"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:gravity="left|center_vertical"/>
+        
+      <!--   <Button 
+	        android:id="@+id/addButton"
+	        android:layout_width="100dp" 
+	    	android:layout_height="50dp"
+	    	android:text="Add"
+	    	android:textStyle="bold"
+	    	android:textColor="#ECE8EB"
+	    	android:background="@drawable/save_button"
+	    	android:layout_alignParentRight="true"
+	    	/> -->
+        
+    </RelativeLayout>
+    
+     <!-- <RelativeLayout 
+         android:id="@+id/searchRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/rounded_searchedittext">
+        
+        <ImageView  
+            android:layout_width="30dp" 
+	    	android:layout_height="30dp"
+	    	android:background="@drawable/search"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="10dp"
+	    	/>
+         
+	    <EditText  
+	        android:id="@+id/searchCategoryText"
+	        android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:inputType="textCapSentences"
+	    	android:hint="Search"
+	    	android:layout_centerVertical="true"
+	    	android:layout_marginLeft="50dp"
+	    	android:padding="5dp"
+	    	android:background="#EED8C0"
+	    	android:maxLength="30"
+	    	android:imeOptions="actionDone"/>
+	 </RelativeLayout>    -->
+    
+   	<ListView 
+        android:id="@+id/categoryListView"
+        android:layout_width="match_parent" 
+    	android:layout_height="wrap_content"
+    	android:divider="@null"
+		android:dividerHeight="0dp"/>
+    
+</LinearLayout>

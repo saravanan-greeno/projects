@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.rainbowagri.liveprice.FeedbackViewActivity" >
+   <item
+           android:id="@+id/search"
+           android:title="Search here"
+           android:icon="@drawable/ic_action_search"
+           android:imeOptions="actionSearch" 
+           android:showAsAction="always|collapseActionView"
+           android:actionViewClass="android.widget.SearchView" 
+           android:orderInCategory="95"/>
+
+</menu>

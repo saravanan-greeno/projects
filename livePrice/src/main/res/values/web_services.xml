@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- User Authentication -->
+<!-- 
+    <string name="authenticate_vendor">http://rainbowagri.com/RainbowDev/REST/WebService/userAuthentication</string>
+    <string name="authenticate_vendor">http://rainbowagri.com/userAuthNew/REST/WebService/vendorAuth</string>
+    
+     Add Commodity
+    <string name="add_commodity">http://rainbowagri.com/SellNew/REST/WebService/savePriceDetails</string>
+	<string name="delete_commodity">http://rainbowagri.com/SellNew/REST/WebService/deletePrice</string>
+	
+	Commodity List  - Saravanan
+    <string name="view_commodity">http://rainbowagri.com/SellNew/REST/WebService/viewPriceDetails</string>  
+    <string name="edit_commodity"> http://rainbowagri.com/SellNew/REST/WebService/editCategory</string>   
+	
+    <string name="view_edit_price_commodity">http://rainbowagri.com/SellNew/REST/WebService/viewCommodity</string>
+	<string name="edit_submit_price_commodity">http://rainbowagri.com/SellNew/REST/WebService/commodityEditPrice</string>
+    
+    
+    <string name="save_commodity_picture">http://rainbowagri.com/LPriceNew/REST/WebService/saveCommodityPicture</string>  
+      
+    <string name="Order_history">http://rainbowagri.com/SellNew/REST/WebService/vendorOrderHistory</string> 
+    
+    <string name="Get_Categories">http://rainbowagri.com/BuyXMLNew/REST/WebService/viewCategory</string>
+    <string name="Get_Sub_Categories">http://rainbowagri.com/SellNew/REST/WebService/getSubCategory</string>
+   
+
+    
+       <string name="Price_Hide"> http://rainbowagri.com/SellNew/REST/WebService/hidePrice</string> 
+       <string name="Order_Status"> http://rainbowagri.com/SellNew/REST/WebService/orderStatus</string> 
+       <string name="Shop_Active"> http://rainbowagri.com/BuyXMLNew/REST/WebService/activeShop</string> 
+       <string name="orderTrack">http://rainbowagri.com/BuyXMLNew/REST/WebService/trackOrder</string>
+
+	 <string name="cancelOrder">http://rainbowagri.com/BuyXMLNew/REST/WebService/cancelOrder</string>
+	 <string name="feedback_view">http://rainbowagri.com/SellNew/REST/WebService/feedback</string>
+	 <string name="check_version">http://rainbowagri.com/BuyJSONNew/REST/WebService/forceToUpdate</string> -->
+	 
+	  
+    <string name="authenticate_vendor">http://greenovm02.cloudapp.net/userAuthTest/REST/WebService/vendorAuth</string>
+    
+    <!--  Add Commodity-->
+    <string name="add_commodity">http://greenovm02.cloudapp.net/LPrice/REST/WebService/savePriceDetails</string>
+	<string name="delete_commodity">http://greenovm02.cloudapp.net/LPrice/REST/WebService/deletePrice</string>
+	
+	<!-- Commodity List  - Saravanan -->
+    <string name="view_commodity"> http://greenovm02.cloudapp.net/LPrice/REST/WebService/viewPriceDetails</string>  
+    <string name="edit_commodity"> http://greenovm02.cloudapp.net/LPrice/REST/WebService/editCategory</string>   
+	
+    <string name="view_edit_price_commodity">http://greenovm02.cloudapp.net/LPrice/REST/WebService/viewCommodity</string>
+	<string name="edit_submit_price_commodity">http://greenovm02.cloudapp.net/LPrice/REST/WebService/commodityEditPrice</string>
+    
+    
+    <string name="save_commodity_picture">http://greenovm02.cloudapp.net/LPrice/REST/WebService/saveCommodityPicture</string>  
+      
+    <string name="Order_history">http://greenovm02.cloudapp.net/LPrice/REST/WebService/vendorOrderHistory</string> 
+    
+    <string name="Get_Categories">http://greenovm02.cloudapp.net/BuyTest/REST/WebService/viewCategory</string>
+    <string name="Get_Sub_Categories">http://greenovm02.cloudapp.net/LPrice/REST/WebService/getSubCategory</string>
+   
+
+    
+       <string name="Price_Hide"> http://greenovm02.cloudapp.net/LPrice/REST/WebService/hidePrice</string> 
+       <string name="Order_Status"> http://greenovm02.cloudapp.net/LPrice/REST/WebService/orderStatus</string> 
+       <string name="Shop_Active"> http://greenovm02.cloudapp.net/BuyTest/REST/WebService/activeShop</string> 
+       <string name="orderTrack">http://greenovm02.cloudapp.net/BuyTest/REST/WebService/trackOrder</string>
+
+	 <string name="cancelOrder">http://greenovm02.cloudapp.net/BuyTest/REST/WebService/cancelOrder</string>
+	 <string name="feedback_view">http://greenovm02.cloudapp.net/LPrice/REST/WebService/feedback</string>
+	 <string name="check_version">http://greenovm02.cloudapp.net/Buy/REST/WebService/forceToUpdate</string>
+
+</resources>
+<!-- http://rainbowagri.com/CarryBagTest/Rest/WebService/webserviceName -->
+

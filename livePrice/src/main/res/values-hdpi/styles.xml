@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Login Screen -->
+   <!-- <style name="LoginTextFieldTheme">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/textFieldHeight</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/login_cust_edittext</item>
+        <item name="android:layout_marginTop">@dimen/layoutMarginTop</item>
+        <item name="android:layout_marginBottom">@dimen/layoutMarginBottom</item> 
+        <item name="android:textSize">@dimen/textSize</item>   
+        <item name="android:gravity">center</item>
+        </style>-->
+
+
+    <!-- Login Screen -->
+    <style name="LoginTextFieldTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/ua_login_tf_height</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/ua_bg_login_edittext</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/mobile_pwd_text_color</item>
+        <item name="android:layout_marginTop">@dimen/ua_layoutMarginTop</item>
+        <item name="android:layout_marginBottom">@dimen/ua_layoutMarginBottom</item>
+    </style>
+
+    <style name="LinkButtonTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textSize">@dimen/ua_forgot_pwd_text_size</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,97 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    
+      <style name="AppBaseTheme"  parent="@android:style/Theme.Material.Light.DarkActionBar">    
+     <!--  <style name="AppBaseTheme" parent="android:Theme.Light">   -->
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+       <!--   <item name="android:actionOverflowButtonStyle">@style/OverFlow</item>
+          <item name="android:actionBarStyle">@style/Theme.MyAppTheme.ActionBar</item>
+          <item name="android:homeAsUpIndicator">@drawable/arrow</item>   -->
+       
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+      <!-- <style name="Theme.MyAppTheme.ActionBar" parent="@android:style/Widget.Holo.ActionBar">
+           <item name="android:textColor">@android:color/black</item>
+        </style> -->
+     <!--  <style name="Theme.MyAppTheme.ActionBar" parent="@android:style/Widget.Holo.ActionBar">
+           <item name="android:textColor">@android:color/black</item>
+           <item name="android:displayOptions">showHome|homeAsUp|showTitle</item>
+           <item name="android:icon">@android:color/transparent</item> 
+       </style> 
+    
+    
+    <style name="OverFlow" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_action_menu</item>
+    </style>
+    Login Screen
+    <style name="LoginTextFieldTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/login_cust_edittext</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#333333</item>
+        </style>
+        
+    
+        
+    Commodity List  - Saravanan
+       <style name="MyPopupMenu" parent="@android:style/Widget.Holo.ListPopupWindow">
+	    <item name="android:popupBackground">@color/menu_popup</item> 
+	    <item name="android:divider">@color/menu_divider</item> 
+	</style>
+	
+	<style name="AppLightTheme" parent="android:Theme.Holo.Light">      
+        <item name="android:itemTextAppearance">@style/TextAppearance</item>
+        <item name="android:popupMenuStyle">@style/MyPopupMenu</item>
+    </style>
+
+    <style name="TextAppearance">
+	    <item name="android:textColor">@color/menu_text</item>
+	</style>
+
+    <style name="Listviewdesign">
+          <item name="android:layout_width">fill_parent</item>       
+         <item name="android:gravity">center</item>
+         <item name="android:background">@drawable/list_view_top_rounded</item>
+        </style>
+        
+     <style name="imageView">
+         <item name="android:layout_width">wrap_content</item>     
+        <item name="android:layout_height">wrap_content</item>   
+      
+         <item name="android:src">@drawable/rupee</item> 
+      </style> -->
+      
+<!--   <style name="ActionBar" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/main_accent</item>
+        <item name="android:icon">@drawable/ab_icon</item>
+    </style>
+ 
+    <style name="ActionBarWidget" parent="Theme.AppCompat.Light.DarkActionBar">
+        SearchView customization
+        <item name="searchViewSearchIcon">@drawable/ic_action_search</item>
+        <item name="searchViewCloseIcon">@drawable/ic_action_remove</item>
+        <item name="searchViewTextField">@drawable/ab_textfield_searchview</item>
+        <item name="searchViewAutoCompleteTextView">@style/AutoCompleteTextView</item>
+    </style>
+ 
+    <style name="AutoCompleteTextView" parent="Widget.AppCompat.Light.AutoCompleteTextView">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:textColorHighlight">@color/search_view_selected_text</item>
+    </style> -->
+</resources>

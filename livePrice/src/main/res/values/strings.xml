@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sell</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Login -->
+    <!-- UI -->
+    <string name="copyright">© Powered by RainbowAgri.Com</string>
+    <string name="login">Login</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="password">Password</string>
+  <string name="response_failure">Failed to update. please try after some time</string>
+  <!--  &lt;!&ndash; Validation Messages &ndash;&gt;
+    <string name="userid_null">Enter mobile number</string>
+    <string name="password_null">Enter password</string>
+    <string name="userid_invalid">Invalid mobile number</string>
+    <string name="password_invalid">Invalid password</string>
+    <string name="response_failure">Failed to update. please try after some time</string>
+    <string name="session_expired">Session expired</string>-->
+
+    <!-- Commodity List  - Saravanan -->
+    <string name="action_addcommodity">Add commodity</string>
+    <string name="Search_hint">Search here</string>
+    <string name="spinner_title">Category</string>
+    <!-- Shared Preferences Details -->
+    <string name="shared_references_name">RainbowAgriLivePrice</string>
+    <string name="mobile_number">mobilenumber</string>
+    <string name="coordinator_ref_id">coordinatorRefId</string>
+    <string name="shop_name">shopName</string>
+    <string name="rupee_symbol">\u20B9</string>
+    <string name="title_activity_minimum_quantity">MinimumQuantityActivity</string>
+    <string name="title_activity_feedback_view">Feedback</string>
+    <string name="title_activity_feedback_detail_view">Feedback Details</string>
+    
+       <string name="please_wait">please wait</string>
+          <string name="update_test">update test</string>
+             <string name="you_are_not_updated_title">you_are_not_updated_title yet</string>
+                <string name="you_are_not_updated_message">you_are_not_updated</string>
+                   <string name="no">No</string>
+                      <string name="yes">Yes</string>
+                       <string name="you_are_updated_title">you_are_updated_title</string>
+                <string name="you_are_updated_message">you_are_updated_message</string>
+                 <string name="ok">ok</string>
+                  <string name="last_update_test_preferences">last_update_test_preferences</string>
+
+
+
+    ------------------
+
+
+
+    <string name="app_name1">UserAuth</string>
+
+    <string name="action_user_policy">User policy</string>
+    <string name="action_signup">Sign Up</string>
+
+    <!-- Login fragment -->
+    <string name="mobile_hint">Mobile Number</string>
+    <string name="password_hint">Password</string>
+
+    <string name="app_logo_content_desc">Displays the app specific logo</string>
+    <string name="forgot_pwd">Forgot Password</string>
+    <string name="skip">Skip Login</string>
+
+    <!-- Validation Messages -->
+    <string name="userid_null">Enter mobile number</string>
+    <string name="password_null">Enter password</string>
+    <string name="userid_invalid">Invalid mobile number</string>
+    <string name="password_invalid">Invalid password</string>
+    <string name="response_invalid">Your mobile number or password was entered incorrectly</string>
+    <string name="session_expired">Session expired</string>
+    <string name="response_newUser">Entered mobile number is not registered. Sign up now?</string>
+    <string name="response_reset_pwd">Seems you recently requested to reset password.</string>
+    <string name="response_inactive">Admin approval is pending for this mobile number.\nPlease call +919884053484 or email to rainbow@greeno.in</string>
+    <!-- Sign up alert dialog  -->
+    <string name="signup_alert_pos_but">SignUp</string>
+    <string name="signup_alert_neg_but">Cancel</string>
+
+    <!-- Reset password alert dialog -->
+    <string name="reset_pwd_alert_pos_but">Reset</string>
+    <string name="reset_pwd_alert_neg_but">Cancel</string>
+
+    <!-- Inactive user alert dialog -->
+    <string name="inactive_alert_neu_but">OK</string>
+
+
+    <!-- Forgot Password fragment -->
+    <string name="get_SMS">Get SMS</string>
+    <string name="mobile_numb_et_hint">Enter Mobile Number</string>
+    <string name="send_otc_failed_title">Error occurred</string>
+    <string name="send_otc_failed_msg">Try after some time.</string>
+
+    <!-- Send OTC failed dialog -->
+    <string name="send_otc_alert_neu_but">OK</string>
+
+
+    <!-- Verify OTC -->
+    <string name="reset_code">Reset Code</string>
+    <string name="otc_et_hint">Enter Code</string>
+    <string name="done">Done</string>
+    <string name="resend_sms">Resend SMS</string>
+    <string name="resent_success">OTC has been resent successfully</string>
+    <!-- Validation Messages -->
+    <string name="otc_null">Enter the OTC received in SMS</string>
+    <string name="otc_invalid">Invalid Code</string>
+
+    <!-- Change Password -->
+    <string name="change_pwd">Reset Password</string>
+    <string name="new_pwd_et_hint">New Password</string>
+    <string name="confirm_pwd_et_hint">Confirm Password</string>
+    <string name="update">Update</string>
+    <!-- Validation Messages -->
+    <string name="new_pwd_null">Enter the new password</string>
+    <string name="confirm_pwd_null">Re-enter the new password</string>
+    <string name="new_pwd_invalid">Password should be atleast 7 characters long</string>
+    <string name="new_pwd_mismatches">Entered password mismatches</string>
+
+    <string name="change_pwd_failed">Error occurred. Try after some time</string>
+    <string name="change_pwd_success">Success! Login with new details</string>
+
+    <!-- User Policy  -->
+    <string name="user_policy">User Policies</string>
+
+
+
+
+</resources>

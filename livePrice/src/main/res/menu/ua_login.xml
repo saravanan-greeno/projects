@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.rainbowagri.userauth.LoginActivity" >
+
+    <item
+        android:id="@+id/action_user_policy"
+        android:orderInCategory="99"
+        android:showAsAction="always"
+        android:title="@string/action_user_policy"
+        android:icon="@drawable/ua_ic_userpolicy_active"/>
+    <item 
+        android:id="@+id/action_sign_up"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/action_signup"
+        android:icon="@drawable/ua_ic_signup"/>
+
+</menu>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+    <color name="menu_popup">#e96044</color>
+    <color name="menu_text">#ffffff</color>
+     <color name="menu_divider">#f08772</color>
+     <color name="list_divider">#fdf5e5</color>
+      <color name="list_view_layout">#eaebed</color>
+      <color name="color_preloader_start">#800080</color>
+ <color name="color_preloader_center">#A828A8</color> 
+ <color name="color_preloader_end">#78F8F8</color> 
+      
+</resources>

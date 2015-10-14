@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+   <!--  <string name = "uri_login">http://rainbowagri.com/userAuthNew/REST/WebService/login</string>
+    <string name = "uri_getUserPolicy">http://rainbowagri.com/userAuthNew/REST/WebService/getUserPolicy</string>
+    <string name = "uri_send_otc">http://rainbowagri.com/userAuthNew/REST/WebService/sendOTC</string>
+    <string name = "uri_verify_otc">http://rainbowagri.com/userAuthNew/REST/WebService/verifyOTC</string>
+    <string name = "uri_change_pwd">http://rainbowagri.com/userAuthNew/REST/WebService/resetUserPwd</string> -->
+    
+    
+    <string name = "uri_login">http://greenovm02.cloudapp.net/userAuthTest/REST/WebService/login</string>
+    <string name = "uri_getUserPolicy">http://greenovm02.cloudapp.net/userAuthTest/REST/WebService/getUserPolicy</string>
+    <string name = "uri_send_otc">http://greenovm02.cloudapp.net/userAuthTest/REST/WebService/sendOTC</string>
+    <string name = "uri_verify_otc">http://greenovm02.cloudapp.net/userAuthTest/REST/WebService/verifyOTC</string>
+    <string name = "uri_change_pwd">http://greenovm02.cloudapp.net/userAuthTest/REST/WebService/resetUserPwd</string>
+    
+</resources>
+

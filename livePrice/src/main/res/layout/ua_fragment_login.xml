@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/ua_activity_vertical_margin"
+    android:paddingLeft="@dimen/ua_activity_horizontal_margin"
+    android:paddingRight="@dimen/ua_activity_horizontal_margin"
+    android:paddingTop="@dimen/ua_activity_vertical_margin"
+    android:background="@drawable/ua_bg_login">
+    
+    <LinearLayout 
+         android:id="@+id/userid_ll"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="@dimen/ua_login_content_top_margin"
+         android:orientation="vertical">
+         	  
+         <ImageView
+         android:id="@+id/app_logo"
+         android:contentDescription="@string/app_logo_content_desc"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="0dp"
+         android:layout_marginBottom="@dimen/ua_appLogoMarginBottom"
+         android:src="@drawable/ua_ic_launcher"/>   
+        
+	     <EditText
+	         android:id="@+id/mobile_et"
+	         style="@style/LoginTextFieldTheme"
+	         android:ems="10"
+	         android:inputType="number"
+	         android:maxLength="10"
+	         android:hint="@string/mobile_hint"
+	         android:textCursorDrawable="@null"/>
+	   
+	     <EditText
+	         android:id="@+id/password_et"
+	         style="@style/LoginTextFieldTheme"
+	         android:inputType="textPassword"
+	         android:ems="10"
+	         android:imeOptions="actionDone"
+	         android:hint="@string/password_hint"
+	         android:layout_marginBottom="@dimen/ua_passwordMarginBottom"
+	         android:textCursorDrawable="@null"/>
+     </LinearLayout>
+
+     <Button
+         android:id="@+id/login_bt"
+         style="@style/LoginTextFieldTheme"
+         android:layout_centerHorizontal="true"
+         android:layout_below="@id/userid_ll"
+         android:text="@string/login"
+         android:textColor="@android:color/white"
+         android:textSize="@dimen/ua_login_btn_text_size"
+         android:layout_marginTop="0dp"
+         android:layout_marginBottom="0dp"
+         android:background="@drawable/ua_bg_login_button"
+         android:layout_width="@dimen/ua_login_btn_width" /> 
+     
+     <LinearLayout 
+         android:id="@+id/links_ll"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="@dimen/ua_layoutMarginTop"
+         android:orientation="horizontal"
+         android:layout_centerInParent="true"
+         android:layout_below="@id/login_bt"
+         android:background="@android:color/transparent">
+         
+         <Button 
+         	android:id="@+id/forgot_pwd"
+         	style="@style/LinkButtonTheme"
+	       	android:text="@string/forgot_pwd"
+	        android:layout_marginTop="0dp"
+	        android:layout_marginBottom="0dp"
+	        android:textColor="@color/forgot_pwd_text"
+	        android:background="@android:color/transparent"
+         	/>
+         <Button 
+         	android:id="@+id/skip"
+         	style="@style/LinkButtonTheme"
+	       	android:text="@string/skip"
+	        android:layout_marginTop="0dp"
+	        android:layout_marginBottom="0dp"
+	        android:layout_marginLeft="@dimen/ua_layoutMarginLeft"
+	        android:textColor="@color/skip_text"
+	        android:background="@android:color/transparent"
+         	/>
+     </LinearLayout>
+      
+</RelativeLayout>

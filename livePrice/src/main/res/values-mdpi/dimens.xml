@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  Login  -->
+    <dimen name="layoutMarginTop">3dp</dimen>
+    <dimen name="layoutMarginBottom">4dp</dimen>
+    <dimen name="passwordMarginBottom">6dp</dimen>
+    <dimen name="textSize">15px</dimen>
+    <dimen name="textFieldHeight">35dp</dimen>
+    
+    <!-- Commodity List  - Saravanan -->
+ 	<!-- list view -->
+    <dimen name="listview_commodityname">23dp</dimen>
+    <dimen name="listview_varietyname">54dp</dimen>
+    <dimen name="listview_price">21dp</dimen>
+    <dimen name="listview_rupee">21dp</dimen>
+    <dimen name="listview_unit">17dp</dimen>
+    <dimen name="listview_date">14dp</dimen>
+    <dimen name="listview_title">20dp</dimen>
+    
+</resources>

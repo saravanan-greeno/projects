@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rainbowagri.liveprice"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:installLocation="auto"
+    android:versionCode="11"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23"
+        tools:overrideLibrary="com.rainbowagri.profilepage"/>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+  	<uses-permission android:name="android.permission.SEND_SMS" />
+  	 
+    
+    <!-- Optional permission for Google Analytics -->
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:name=".MyApplications"
+        android:allowBackup="true"
+        android:configChanges="orientation"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:icon="@drawable/ic_launcher"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme" >
+        
+        <meta-data android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version" />
+       <!--   <meta-data
+      android:name="com.google.android.gms.analytics.globalConfigResource"
+      android:resource="@xml/analytics_global_config" /> -->
+        <!-- Enable background dispatching to improve delivery on non-Google Play devices -->
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false"/>
+        
+        <!-- Enable Google Play Store Campaign reports -->
+        <receiver
+            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+            android:exported="true"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.android.gms.analytics.CampaignTrackingService"
+            android:enabled="true"/>
+        
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name" >
+              <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> 
+        </activity>
+        
+         <activity
+            android:name=".UserAuthMainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/UserAuthAppTheme">
+           <!--  <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> -->
+        </activity>
+        
+        <activity
+            android:name=".AndroidDatabaseManager"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".EditCommodityPriceActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:parentActivityName=".CommodityDetailsActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rainbowagri.liveprice.CommodityDetailsActivity" />
+        </activity>
+       <!--  <activity
+            android:name=".LoginActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity> -->
+        <activity
+            android:name=".AddCommodityActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name=".CategoryActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".ListViewPopupActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name=".CommodityDetailsActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+           
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".DisplayImageActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".OrderHistory"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+
+        <!-- UserAuth Components -->
+        <activity
+            android:name="com.rainbowagri.userauth.UserAuthMainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/UserAuthAppTheme" >
+        </activity>
+
+        <!-- ProfileModule Components -->
+        <activity
+            android:name="com.rainbowagri.profilepage.ProfilePageActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.rainbowagri.profilepage.DisplayImageActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.rainbowagri.profilepage.ProfilePageViewActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+
+        <!-- Crash Report -->
+        <activity
+            android:name="com.greeno.crashreport.CrashReportActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name=".MinimumQuantityActivity"
+            android:label="@string/title_activity_minimum_quantity"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name=".OrderStatusActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name=".FeedbackViewActivity"
+            android:label="@string/title_activity_feedback_view"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".FeedbackDetailViewActivity"
+             android:theme="@style/AppTheme" 
+             android:parentActivityName=".FeedbackViewActivity" 
+            android:label="@string/title_activity_feedback_detail_view">
+             >
+           <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rainbowagri.liveprice.FeedbackViewActivity" />  
+        </activity>
+    </application>
+
+</manifest>

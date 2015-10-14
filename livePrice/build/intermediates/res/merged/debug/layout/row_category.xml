@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="70dp"
+    >
+    <LinearLayout
+	    android:id="@+id/rowLinearLayout"
+	    android:layout_width="match_parent" 
+	    android:layout_height="50dp"
+	    android:layout_margin="10dp"
+	    android:layout_marginLeft="30dp"
+	    android:layout_marginRight="30dp"
+	    android:background="@drawable/rounded_edittext"
+    	>
+	  <TextView 
+	      android:id="@+id/categoryNameText"
+	      android:layout_width="match_parent"
+	      android:layout_height="50dp"
+	       
+	      android:layout_gravity="center_vertical"
+	      android:gravity="left|center_vertical"
+	      android:padding="5dp"
+	      android:textColor="#264963" />
+    
+</LinearLayout>
+    
+</RelativeLayout>
+
+<!-- From: file:/D:/projects/livePrice/src/main/res/layout/row_category.xml -->

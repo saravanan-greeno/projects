@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/ua_frg_pwd_left_margin"
+    android:layout_marginRight="@dimen/ua_frg_pwd_right_margin" >
+    
+    <ImageView
+         android:id="@+id/app_logo_frg_pwd"
+         android:contentDescription="@string/app_logo_content_desc"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="top"
+         android:layout_marginTop="0dp"
+         android:layout_marginBottom="@dimen/ua_appLogoMarginBottom"
+         android:src="@drawable/ua_ic_launcher"/>
+    
+    <TextView 
+        android:id="@+id/frg_pwd_tv"
+        android:text="@string/forgot_pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="@dimen/ua_layoutMarginTop"
+        android:layout_marginBottom="@dimen/ua_layoutMarginBottom"
+        android:textColor="@color/custom_blue"
+        android:textSize="@dimen/ua_forgot_pwd_text_size_large"/>
+    
+    <EditText
+         android:id="@+id/mobile_numb_et"
+         style="@style/LoginTextFieldTheme"
+         android:ems="10"
+         android:inputType="number"
+         android:maxLength="10"
+         android:hint="@string/mobile_numb_et_hint"
+         android:textCursorDrawable="@null"/>
+    
+    <Button
+         android:id="@+id/get_sms_bt"
+         style="@style/LoginTextFieldTheme"
+         android:text="@string/get_SMS"
+         android:textColor="@android:color/white"
+         android:textSize="@dimen/ua_login_btn_text_size"
+         android:layout_marginTop="@dimen/ua_layoutMarginTop"
+         android:layout_marginBottom="@dimen/ua_layoutMarginBottom"
+         android:background="@drawable/ua_bg_login_button"
+         android:layout_width="@dimen/ua_login_btn_width"
+         android:layout_gravity="right" /> 
+    
+</LinearLayout>
+<!-- From: file:/D:/projects/livePrice/src/main/res/layout/ua_fragment_forgot_pwd.xml -->

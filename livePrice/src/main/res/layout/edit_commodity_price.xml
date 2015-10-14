@@ -1,0 +1,163 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4d9962"
+    tools:context="com.rainbowagri.liveprice.EditCommodityPriceActivity" >
+
+   <RelativeLayout 
+       android:id="@+id/spinnerlayout"
+                android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+  				android:orientation="horizontal" 
+  				android:paddingTop="5dp"
+  				android:paddingLeft="5dp">
+  				<!-- android:background="@android:color/transparent" -->
+  				 
+  			 <Spinner
+  			     android:id="@+id/spinnercategory"
+  			     android:layout_width="200dp"
+  			     android:layout_height="wrap_content"
+  			     android:layout_marginTop="8dp"
+  			     android:popupBackground="@drawable/menu_dropdown_panel_category"
+  			     android:background="@drawable/spinner_transparant"
+  			     android:prompt="@string/spinner_title" />
+  			 
+  			 
+  			 
+  			 <TextView 
+  			       android:id="@+id/title"
+   	    android:layout_width="match_parent"
+   		android:layout_height="wrap_content" 
+   		android:text=" " 
+   		android:paddingLeft="5dp"
+   		android:textColor="#ffffff"
+   		android:layout_marginTop="14dp"
+   		android:layout_toRightOf="@+id/spinnercategory"
+   		 android:textStyle="bold"
+   		 
+
+   		/>
+<!-- 
+  			  <Button
+  			      android:id="@+id/EditButton"
+  			      android:layout_width="wrap_content"
+  			      android:layout_height="wrap_content"
+  			      android:layout_alignTop="@+id/spinnercategory"
+  			      android:layout_marginLeft="18dp"
+  			      android:layout_toRightOf="@+id/spinnercategory"
+  			      android:text="Edit" /> -->
+
+</RelativeLayout>
+<View
+    android:layout_width="fill_parent"
+    android:layout_height="2dp"
+    android:layout_marginTop="6dp"
+     android:layout_below="@id/spinnerlayout"
+    android:background="@android:color/darker_gray"/>
+
+   <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/spinnerlayout"
+     android:descendantFocusability="beforeDescendants"
+       android:paddingBottom="@dimen/activity_vertical_margin"
+       android:paddingLeft="@dimen/activity_horizontal_margin"
+       android:paddingRight="@dimen/activity_horizontal_margin"
+       android:paddingTop="@dimen/activity_vertical_margin"
+     tools:context="com.rainbowagri.liveprice.EditCommodityPriceActivity" >
+   
+   <ListView
+       android:id="@+id/liste"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:divider="@android:color/transparent"
+       android:descendantFocusability="beforeDescendants"
+       android:stackFromBottom="true"
+       android:scrollbarThumbHorizontal="@android:color/transparent"
+       android:scrollbarThumbVertical="@android:color/transparent"
+       android:dividerHeight="15dp" 
+        android:focusable="false"
+      
+ 
+       >
+
+         	
+       
+       
+      <!--   android:focusable="true" 
+          android:descendantFocusability="beforeDescendants"
+ android:focusableInTouchMode="true" 
+ android:headerDividersEnabled="true"
+ android:scrollingCache="true"  -->
+         </ListView>
+
+</RelativeLayout>
+<LinearLayout 
+     android:id="@+id/noDataLayout"
+     android:layout_width="match_parent"
+     android:layout_height="300dp"
+     android:gravity="center"
+     android:layout_centerInParent="true"
+     
+     android:visibility="gone"
+     >
+   	<TextView 
+   	    android:layout_width="match_parent"
+   		android:layout_height="match_parent" 
+   		android:text="No Commodity Available" 
+   		android:layout_marginTop="15dp"
+	    android:layout_marginLeft="15dp"
+   		android:textSize="18dp"
+   		android:textColor="#FFFFFF"  		
+   		android:textStyle="bold"
+   		  android:gravity="center"
+
+   		/>
+ </LinearLayout> 
+ 
+ 	<LinearLayout
+         android:id="@+id/noInternetConnection"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_centerInParent="true"
+         android:layout_gravity="center"
+         android:orientation="vertical"
+          android:visibility="gone"
+         >
+  
+	  <ImageView
+	     android:id="@+id/nonet"
+	     android:layout_width="100dp"
+	     android:layout_height="wrap_content"
+	     android:layout_centerInParent="true" 
+	     android:layout_gravity="center"
+	     android:src="@drawable/signal"
+	       />
+	 
+	 	<TextView
+	             android:id="@+id/NoNetText"
+	             android:layout_width="290dp"
+	             android:layout_height="wrap_content"
+	             android:layout_marginTop="15dp"
+	             android:layout_marginLeft="15dp"
+	             android:gravity="center_horizontal"
+	             android:text="Check your connection and try again"
+	             android:textSize="20dp" 
+	             android:textColor="#ffffff"
+	             android:textStyle="bold"
+	       />
+	 
+	   <Button
+	     android:id="@+id/tabToLoad"
+	     android:layout_width="100dp"
+	     android:layout_height="wrap_content"
+	     android:layout_centerInParent="true"
+	     android:background="@drawable/retry"
+	     android:layout_below="@id/NoNetText"
+	     android:layout_marginTop="15dp"
+	     android:layout_gravity="center"
+		/>
+	</LinearLayout>
+ 
+</RelativeLayout>

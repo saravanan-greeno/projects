@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/list_view_top_rounded" >
+
+    <TextView
+        android:id="@+id/orderId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="14dp"
+        android:textSize="15dp"
+        android:text="TextView" 
+         android:textColor="#e96044"/>
+
+    <ImageView
+        android:id="@+id/view"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/orderId"
+        android:src="@drawable/deliv" 
+         />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/orderId"
+        android:layout_alignTop="@+id/view"
+        android:text="TextView"
+         android:textSize="15dp"
+         android:textColor="#e96044" />
+
+</RelativeLayout>
+<!-- From: file:/D:/projects/livePrice/src/main/res/layout/order_history_row.xml -->

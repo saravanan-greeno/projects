@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical" 
+android:background="#ffffff">
+<FrameLayout  
+    android:layout_width="fill_parent" 
+    android:layout_height="55dp" 
+    android:id="@+id/framelayout" >
+    
+       <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:paddingLeft="10dp"
+        android:text="Commodity Information" 
+        android:gravity="left|center"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="#FF7F66"
+        android:textSize="18dp"/>
+
+    <Button
+        android:id="@+id/comInfoButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="3dp"
+        android:layout_gravity="right|center"
+        android:background="@drawable/okay" />
+
+    </FrameLayout>
+
+    <ScrollView
+        android:id="@+id/comInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+         android:background="@drawable/rounded_edittext"
+         android:layout_marginLeft="2dp"
+         android:layout_marginRight="2dp"
+        android:layout_marginTop="70dp" >
+ 
+
+    <EditText
+        android:id="@+id/commodityInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/comInfo"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+      
+        android:ems="10"
+        android:hint="Commodity Information" />
+    </ScrollView>
+
+</RelativeLayout><!-- From: file:/D:/projects/livePrice/src/main/res/layout/commodity_info.xml -->

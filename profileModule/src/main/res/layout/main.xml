@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <Button 
+        android:id="@+id/addNewProfileId_Broadcaster"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Add Profile-Broadcaster" />
+    <Button 
+        android:id="@+id/addNewProfileId_LivePrice"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Add Profile-LivePrice" />
+    <Button 
+        android:id="@+id/addNewProfileId_Others"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Add Profile-Others" />
+    
+    <Button 
+        android:id="@+id/viewProfileId_Broadcaster"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="View Profile-Broadcaster" />
+     <Button 
+        android:id="@+id/viewProfileId_LivePrice"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="View Profile-LivePrice" />
+    
+     <Button 
+        android:id="@+id/viewProfileId_Others"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="View Profile-Others" />
+        
+
+</LinearLayout>

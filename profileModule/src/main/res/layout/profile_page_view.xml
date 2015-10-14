@@ -1,0 +1,303 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<RelativeLayout 
+        android:id="@+id/headingProfileView" 
+    	android:layout_width="match_parent"
+    	android:layout_height="40dp"
+    	android:orientation="vertical"
+    	android:background="#66000000"
+     	>
+     	<TextView 
+     	    android:id="@+id/headingViewProfile"
+     	    android:layout_width="wrap_content"
+    		android:layout_height="match_parent"
+     	    android:text = "Profile"
+     	    android:paddingLeft="5dp"
+     	    android:textSize="18dp"
+    		android:textColor = "#FFFFFF"
+    		android:gravity="center_vertical"
+    		android:layout_centerVertical="true"
+    		android:layout_alignParentLeft="true"/>
+     	<Button 
+     	    android:id="@+id/editButtonProfile"
+     	    android:layout_width="30dp"
+     	    android:layout_height="30dp"
+     	    android:layout_alignParentRight="true"
+     	    android:layout_centerVertical="true"
+     	    android:layout_marginRight="5dp"
+     	    android:background="@drawable/edit_profile"/>
+     	
+	 </RelativeLayout>  
+     <LinearLayout 
+        android:id="@+id/profilePictureBackground" 
+    	android:layout_width="match_parent"
+    	android:layout_height="0dp"
+    	android:layout_weight="3"
+    	android:orientation="vertical"
+    	android:background="@drawable/profile_pic_view"
+     	>
+     	<LinearLayout 	
+    		android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		android:background="#99000000"
+    		android:orientation="vertical" >
+     	<RelativeLayout 
+	    	android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="vertical"
+	    	
+	     	>
+     		<LinearLayout 
+     		    android:id="@+id/profilePictureLayout" 
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:orientation="vertical"
+		    	android:layout_centerHorizontal="true"
+		    	android:layout_gravity="center"
+		    	android:layout_marginTop="10dp"
+		     	>
+	     		<ImageView
+	     		    android:id="@+id/profilePicture" 
+	     		    android:layout_width="104dp"
+	    			android:layout_height="104dp"
+	    			android:layout_gravity="center"
+	    			android:layout_margin="2dp"
+	    			android:scaleType="fitXY"
+	    			android:background="@drawable/profile_pic_view"
+	    			/>
+	     		
+	     	</LinearLayout>	
+
+     		
+     		<LinearLayout 
+     		    android:id="@+id/pincodeLinearlayout"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:orientation="horizontal"
+		    	android:layout_gravity="left"
+		    	android:layout_marginTop="10dp"
+		    	
+		    	
+     		    android:layout_toRightOf="@+id/profilePictureLayout"
+		     	>
+		    
+				<ImageView
+	     		    android:id="@+id/locationImage"
+	     		    android:layout_width="30dp"
+	     		    android:layout_height="30dp"
+	     		    android:background="@drawable/location_profile" />
+		     	<TextView
+	     		    android:id="@+id/pincodeText" 
+	     		    android:layout_width="wrap_content"
+	    			android:layout_height="wrap_content"
+	    			android:layout_marginTop="10dp"
+	    			android:gravity="bottom"
+	    			android:textSize="16dp"
+	    			android:textColor="#FFFFFF"/>
+     	   
+     		</LinearLayout>
+  
+     	</RelativeLayout>
+     	
+     	
+     	<TextView
+	     		    android:id="@+id/nameTextP" 
+	     		    android:layout_width="wrap_content"
+	    			android:layout_height="wrap_content"
+	    			android:layout_gravity="top|center"
+	    			android:layout_marginTop="10dp"
+	    			android:gravity="center"
+	    			android:textSize="16dp"
+	    			android:text=""
+	    			android:textColor="#FFFFFF"/>
+     	
+     		    <LinearLayout 
+	     		    android:id="@+id/cityDistrictlayout"
+			    	android:layout_width="wrap_content"
+			    	android:layout_height="match_parent"
+			    	android:orientation="horizontal"
+			    	android:layout_gravity="center"
+			     	>
+
+			    
+			    	<TextView
+		     		    android:id="@+id/cityProfileView" 
+		     		    android:layout_width="wrap_content"
+		    			android:layout_height="wrap_content"
+		    			android:layout_marginTop="10dp"
+		    			android:gravity="left"
+		    			android:text=""
+		    			android:textSize="16dp"
+		    			android:textColor="#FFFFFF"/>
+			     	<TextView
+		     		    android:id="@+id/districtProfileView" 
+		     		    android:layout_width="wrap_content"
+		    			android:layout_height="wrap_content"
+		    			android:layout_marginTop="10dp"
+		    			android:gravity="left"
+		    			android:text=""
+		    			android:textSize="16dp"
+		    			android:visibility="gone"
+		    			android:textColor="#FFFFFF"/>
+	     	    </LinearLayout>
+ 
+     	</LinearLayout>
+     </LinearLayout>
+    
+      <RelativeLayout 
+        android:id="@+id/mobileNumberRelativeLayout" 
+    	android:layout_width="match_parent"
+    	android:layout_height="0dp"
+    	android:layout_weight="1"
+    	android:background="#000000"
+     	>
+     	 <ImageView
+            android:id="@+id/smsProfile"
+           android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:onClick="smsToDealer"
+            android:background="@drawable/sms_profile" />
+        
+ 			<TextView
+                android:id="@+id/phoneNoTemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="26dp"
+                android:fontFamily="Gotham"
+                android:text=""
+                android:textSize="16dp"
+                android:textColor="#00aaf1"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                 />
+ 		
+ 			<TextView
+                android:id="@+id/phoneNoText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="26dp"
+                android:fontFamily="Gotham"
+                android:textSize="16dp"
+                android:textColor="#00aaf1"
+                android:textStyle="bold"
+                 />
+         <ImageView
+            android:id="@+id/callProfile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/call_profile"
+            android:onClick="callToDealer" />
+     </RelativeLayout>
+
+      <LinearLayout 
+         android:id="@+id/addressAndDescriptionLinear" 
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="4"
+    	android:orientation="vertical"
+    	android:background="#4d9962"
+     	>
+     	<ScrollView 
+     	    android:id="@+id/addressAndDescriptionScroll"
+     	    android:layout_width="match_parent"
+		    android:layout_height="0dp" 
+		   	android:layout_weight="6.7"
+	 		android:paddingTop="5dp"
+	 		android:paddingBottom="10dp"
+	 		android:fillViewport="true"
+	 		android:scrollbars="vertical"
+		     >
+	     	<LinearLayout 
+		    	android:layout_width="match_parent"
+		    	android:layout_height="match_parent"
+		    	android:orientation="vertical"
+		    	 
+		    	android:paddingRight="3dp"
+		    	android:layout_marginTop="5dp"
+		    	android:layout_marginRight="20dp"
+	     	>
+		     	
+	     	   <LinearLayout
+		     	    android:layout_width="match_parent"
+		    		android:layout_height="wrap_content"
+		    	 	android:background="@drawable/rounded_edittext"
+		    		android:orientation="vertical"
+		    		android:paddingRight="3dp"
+		    		android:layout_marginLeft="20dp"
+		    		android:layout_marginTop="20dp"
+		    		android:layout_marginRight="20dp" >
+		     		<TextView
+		     		    android:layout_width="match_parent"
+		     		    android:layout_height="wrap_content"
+		     		    android:text="Address "
+		     		    android:padding="5dp"
+		     		    android:paddingRight="3dp"
+		     		    android:textSize="17dp"
+		     		    android:textColor="#00ADEF"
+		     		   />
+		     		<TextView
+		     		    android:id="@+id/addressProfileView"
+		     		    android:layout_width="match_parent"
+		     		    android:layout_height="match_parent"
+		     		    android:padding="5dp"
+		     		    android:text=""
+		     		    android:textSize="16dp"
+		     		    android:textColor="#000000" />
+		     		
+		     	</LinearLayout>	
+		     	
+		     	<LinearLayout
+		     	    android:layout_width="match_parent"
+		    		android:layout_height="wrap_content"		    	
+		    		android:orientation="vertical"		    		
+		    		android:layout_marginLeft="20dp"
+		    		android:layout_marginTop="20dp"
+		    		android:layout_marginRight="20dp"
+		    		android:background="@drawable/rounded_edittext"  >
+		     		<TextView
+		     		    android:layout_width="match_parent"
+		     		    android:layout_height="wrap_content"
+		     		    android:text="About"
+		     		    android:padding="5dp"
+		     		   	android:textSize="17dp"
+		     		    android:textColor="#00ADEF"/>
+		     		    
+		     		<TextView
+		     		    android:id="@+id/descriptionProfile"
+		     		    android:layout_width="match_parent"
+		     		    android:layout_height="match_parent"
+		     		     android:padding="5dp"
+		     		     android:layout_marginBottom="5dp"
+		     		    android:text=""
+		     		    android:textSize="16dp"
+		     		    android:textColor="#000000" 
+		     		     />
+	     		</LinearLayout>
+	     		<TextView
+		     		    android:id="@+id/dummy"
+		     		    android:layout_width="match_parent"
+		     		    android:layout_height="5dp"
+		     		    android:layout_margin="5dp"
+		     		    android:text=""
+		     		    android:textSize="16dp"
+		     		    android:textColor="#000000" 
+		     		     />
+
+	
+	     	</LinearLayout>
+     	</ScrollView>
+     </LinearLayout>
+
+</LinearLayout>

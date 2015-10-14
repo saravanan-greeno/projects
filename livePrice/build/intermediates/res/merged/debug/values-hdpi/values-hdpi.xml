@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/projects/livePrice/src/main/res/values-hdpi/dimens.xml -->
+    <eat-comment/>
+    <dimen name="layoutMarginBottom">8dp</dimen>
+    <dimen name="layoutMarginTop">6dp</dimen>
+    <dimen name="listview_commodityname">23dp</dimen>
+    <dimen name="listview_date">13dp</dimen>
+    <dimen name="listview_price">23dp</dimen>
+    <dimen name="listview_rupee">23dp</dimen>
+    <dimen name="listview_title">20dp</dimen>
+    <dimen name="listview_unit">19dp</dimen>
+    <dimen name="listview_varietyname">14dp</dimen>
+    <dimen name="passwordMarginBottom">12dp</dimen>
+    <dimen name="textFieldHeight">48dp</dimen>
+    <dimen name="textSize">40px</dimen>
+    <dimen name="ua_appLogoMarginBottom">20dp</dimen>
+    <dimen name="ua_forgot_pwd_text_size">12dp</dimen>
+    <dimen name="ua_forgot_pwd_text_size_large">12sp</dimen>
+    <dimen name="ua_frg_pwd_left_margin">20dp</dimen>
+    <dimen name="ua_frg_pwd_right_margin">20dp</dimen>
+    <dimen name="ua_layoutMarginBottom">8dp</dimen>
+    <dimen name="ua_layoutMarginBottomExtra">15dp</dimen>
+    <dimen name="ua_layoutMarginLeft">8dp</dimen>
+    <dimen name="ua_layoutMarginTop">6dp</dimen>
+    <dimen name="ua_login_btn_text_size">18dp</dimen>
+    <dimen name="ua_login_btn_width">127dp</dimen>
+    <dimen name="ua_login_tf_height">47dp</dimen>
+    <dimen name="ua_passwordMarginBottom">12dp</dimen>
+    <dimen name="ua_textFieldHeight">48dp</dimen>
+    <dimen name="ua_textSize">40px</dimen>
+    <dimen name="ua_webview_height">200dp</dimen>
+    <!-- From: file:/D:/projects/livePrice/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-hdpi/values-hdpi.xml -->
+    <eat-comment/>
+    <style name="Base.Widget.AppCompat.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle.Common">
+          <item name="barSize">18.66dp</item>
+          <item name="gapBetweenBars">3.33dp</item>
+          <item name="drawableSize">24dp</item>
+     </style>
+    <!-- From: file:/D:/projects/livePrice/src/main/res/values-hdpi/styles.xml -->
+    <eat-comment/>
+    <style name="LinkButtonTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textSize">@dimen/ua_forgot_pwd_text_size</item>
+    </style>
+    <style name="LoginTextFieldTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/ua_login_tf_height</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/ua_bg_login_edittext</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/mobile_pwd_text_color</item>
+        <item name="android:layout_marginTop">@dimen/ua_layoutMarginTop</item>
+        <item name="android:layout_marginBottom">@dimen/ua_layoutMarginBottom</item>
+    </style>
+    <!-- From: file:/D:/projects/livePrice/src/main/res/values-hdpi/values.xml -->
+    <eat-comment/>
+    <style name="imageView">
+         <item name="android:layout_width">wrap_content</item>     
+         <item name="android:layout_height">wrap_content</item>   
+         <item name="android:src">@drawable/rupee</item> 
+	</style>
+</resources>

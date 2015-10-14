@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:whatever="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E0EBCA" >
+    
+    <LinearLayout 
+        
+	    android:layout_width="match_parent"
+	    android:layout_height="70dp"
+	    android:orientation="vertical"
+	    android:background="#ffffff">
+	    
+        <TextView 
+            android:id="@+id/layoutHeadingText"
+            android:layout_width="match_parent"
+	    	android:layout_height="match_parent"
+	    	android:text="Manage Price"
+	    	android:textColor="#FFFEFE"
+	    	 android:textStyle="bold"
+	    	android:background="#FF7F66"
+	    	android:textSize="24sp"
+	    	android:gravity="center_vertical"
+	    	android:paddingLeft="10dp"
+            />
+        
+     </LinearLayout>  
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="wrap_content"
+        android:layout_height="0.8dip"
+        android:background="#C0C0C0" />
+    
+
+        <LinearLayout
+        android:id="@+id/changeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal" 
+         
+       >
+
+            <ImageView
+                android:id="@+id/changeImg"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.5"
+                android:src="@drawable/edit" 
+                android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/change"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Edit" 
+            android:layout_weight="1"
+             android:gravity="center|left"
+             android:textSize="20dp"
+             android:textColor="#000000"
+             android:textStyle="bold"
+             />
+
+        </LinearLayout>
+    
+        <View
+        android:id="@+id/divider1"
+        android:layout_width="wrap_content"
+        android:layout_height="1dip"
+        android:background="#C0C0C0" />
+    
+          <LinearLayout
+           android:id="@+id/deleteLayout"
+           android:layout_width="fill_parent"
+           android:layout_height="60dp" 
+           android:orientation="horizontal" 
+           android:layout_marginTop="5dp"
+          >
+        
+        <ImageView
+            android:id="@+id/deleteImg"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="0.5"
+            android:src="@drawable/delete"
+             android:layout_marginTop="10dp" />
+            
+
+        <TextView
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Delete" 
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:textSize="20dp"
+             android:textColor="#000000"
+             android:textStyle="bold"/>
+      </LinearLayout>
+</LinearLayout>

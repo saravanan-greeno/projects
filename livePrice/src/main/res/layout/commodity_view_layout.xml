@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4d9962" >
+ 
+    <RelativeLayout
+        android:id="@+id/listLinearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:layout_margin="5dp"
+         >
+
+         <TextView
+             android:id="@+id/count"
+             android:layout_width="100dp"
+             android:layout_height="35dp"
+           
+             android:layout_alignParentLeft="true"
+             android:background="#ffffff"
+             android:gravity="center"
+             android:textColor="#4d9962"
+             android:textSize="14sp"
+             android:textStyle="bold" />
+         
+          <Spinner
+  			     android:id="@+id/spinnercategory"
+  			     android:layout_width="100dp"
+  			     android:layout_height="35dp"
+  			   android:layout_marginLeft="5dp"
+  			     android:layout_toRightOf="@+id/count"
+  			      android:layout_alignParentRight="true"
+  			     android:popupBackground="@drawable/menu_dropdown_panel_category"
+  			     android:background="@drawable/spinner_transparant"
+  			     android:prompt="@string/spinner_title" />
+  			 
+         
+         
+       
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listLinearLayout"
+        android:layout_margin="4dp"
+     >
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:animationCache="false"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="6dp"
+            android:fastScrollEnabled="true"
+            android:listSelector="#00000000"
+            android:longClickable="true"
+            android:persistentDrawingCache="scrolling"
+            android:scrollbarThumbHorizontal="@android:color/transparent"
+            android:scrollbarThumbVertical="@android:color/transparent"
+            android:scrollingCache="false"
+            android:smoothScrollbar="true" >
+        </ListView>
+        
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/noDataLayout"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="No Commodity Available"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+      
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/noInternetConnection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/nonet"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:src="@drawable/signal" />
+
+        <TextView
+            android:id="@+id/NoNetText"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:text="Check your connection and try again"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/tabToLoad"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/NoNetText"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/retry" />
+        
+        
+        
+    </LinearLayout>
+
+</RelativeLayout>

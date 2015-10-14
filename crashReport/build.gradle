@@ -1,0 +1,31 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+    useLibrary 'org.apache.http.legacy'
+
+    defaultConfig {
+        minSdkVersion 11
+        targetSdkVersion 23
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    /*compile('org.apache.httpcomponents:httpmime:4.3.5') {
+        exclude module: 'httpclient'
+    }*/
+    compile 'org.apache.httpcomponents:httpclient-android:4.3.5.1'
+    compile files('libs/httpclient-android-4.3.5.1.jar')
+    compile files('libs/httpmime-4.3.5.jar')
+    compile 'org.apache.httpcomponents:httpcore:4.4.1'
+    compile 'org.apache.httpcomponents:httpclient:4.5'
+}
+

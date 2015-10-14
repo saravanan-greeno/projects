@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\projects\profileModule\unspecified\jars\libs\commons-logging-1.1.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\commons-logging-1.1.3-f8ee311204fc4882e796b5af76f17d5197ce9663.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\classes-268e04d5082c9e9f5b03736ba4ec6211d7f10690.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\libs\picasso-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\picasso-2.4.0-702598e7c0e2df7f8f193169ac0aa78f27d8278e.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-ee9f25ad9f93159ac4057d4b9456e93df9e1b98a.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\projects\profileModule\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8263f84d06d130a03d861ebb0334e4d590f74f94">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\classes-731730671264d726db14fe75d137045fd1e629fa.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0124ce31248c0e8acfa2b28283c6d1a4d76e73d2">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\classes-08008aa0532a62114c5c7d9eacb87b2ad4b36bd0.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4a135d56554069e5d0ff80e3220e887e57146ee5">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\classes-8eb423e00f385d5bf948846da2509681f3478c11.jar" />
+    </item>
+    <item
+        jar="D:\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-30988f1fe36b09fe750ef342667175c0af8e1dc8.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6e85edfc9b5346d216e50ccef1f8e825504144a3">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\classes-78b2d4f9615daa1c12ba37aea6304fee62f340be.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\projects\profileModule\unspecified\jars\libs\httpmime-4.3.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f49e2348b768a7199e021a97e951df25cd5fb714">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\httpmime-4.3.1-5bddaf2b0404411eaad97e7a198b3c52f634b0d7.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\classes-56f0c7753a47e4eb62b5ef9561b9037e7f13cb06.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\projects\profileModule\unspecified\jars\libs\httpcore-4.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8dfd6286d04ad9dbf26cdf7d4ef5c8fad430cf30">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\httpcore-4.3-b0696d76114c5190b128fc5b48682495ef75e230.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="166e458ee3b5fb5fcff0f936df3f3a788e6c54f3">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\classes-74a944915cec66da8e9046c87ef802ee43eec8d4.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="130b32ed466fa0f63efd4c7d6250ccd2ed506790">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\classes-0c1c9782e4af8b2996092a2fc18b0cb22f0f8ba9.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="77a9dcb5f8b1dba36aacaa9c150eb0942dbea158">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\classes-9d53764e752d281c2c0acd8ff9b0225bc8ead7d8.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\projects\profileModule\unspecified\jars\libs\httpclient-4.3.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0171c67fa04952e76bc9ee1e578fe629db35d769">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\httpclient-4.3.1-dccb544eb83b2f1bb1668ab0e47d71fca114b8d5.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="edea92852b40eee716e910af8dad9eeaa58fb0e1">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\classes-2b309c1d1da0359005935e7234f8e2f22b64051a.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\projects\profileModule\unspecified\jars\libs\httpcore-ab-4.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9dc153fa95ff9535870f537f4588ec0132e52425">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\httpcore-ab-4.3-f44635bc85baf590be495df7007be5468353d583.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\projects\profileModule\unspecified\jars\libs\httpclient-cache-4.3.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="546eee25fa025a455040bbf1708b0c0490c2311b">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\httpclient-cache-4.3.1-c30958ac29a3a2e4b167d10b18625d96c24f26e3.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\classes-609e5664e43c962dfecb0f824dd9b0cd91da1e99.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98137c4d12c50923f5809852b1ef4d1c4e162081">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\classes-9198b310fcf4cdea3a0fabd0732d45dc970d7cea.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="42a1ee578b62fd1bd28b3307a679dc9ba0791587">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\classes-22dfd7a0a26d588fa3c55c5210bf8d5413cc1d3c.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\classes-08e15ba4319342912818557ad013fdf2ba8cba30.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\projects\profileModule\unspecified\jars\libs\fluent-hc-4.3.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d8ad35f275f9874f9b5e51097021df537badedb1">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\fluent-hc-4.3.1-edc2383c741c072e4a196d4ae74a46201b39c623.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2491ae1b2a848af1f4f0c795f3117c1bd6a1989f">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\classes-0640c28dedcd757e705b573fed02095bfab051a0.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\classes-de8d7799655c0828d33bee6ec22223a3a3eb6303.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b99f0b78bbcb76b915bc6529a83b65d4d46990dd">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\classes-420916be3d737510ee0dfd18e0b0ec71ee44007e.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="adebe28e0c0c05d34a3bfd76f3275bf4d8ff87b6">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\classes-eee5caf10dbfd46d3ce7dcbc1ca8b8d6ee7a2194.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d11330ea68c0d964d30d5caed1f27e6b1488b189">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\classes-b868ddd90a608c3d126428af4dd5de5db3c5b5df.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\classes-81bbf41bee3e5ab77a6c6d549654e6425b41c677.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\projects\googleDateTimePickers\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="26c1cb5eb0eef2fa7ee8cb75167baff74652ee05">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\classes-4b4523a1cefedddeec3c4d7544d0831bb0a2007f.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\libs\android-query-full.0.26.8.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5ab405d9f4eaf5ddd615967cd35650657b758d40">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\android-query-full.0.26.8-dd4dcbd7b3f22b7435e3eadc69c9ca5ec3ade205.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e23ea11124bb700eeddd4ab7aa848c615f493850">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\classes-12fd1492884b73e390b70660ad97ecf2417d73fa.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2e24e5f1b11170163028277de63f709e42525db4">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\classes-5f0fc0d68ad00affb470480988ba680050ca8b98.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c2ac04c5b232f6f0658ee4f1c13be09cd76406e2">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\classes-f8498ff9d7c04f6e84a6e0fc02ac7e397910a6e7.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-96064e963c2035e4a87e571d08d5ccfb330b6c24.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\libs\AndroidSwipeLayout-v1.1.8.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c092dd2f2bdea6c04c5bf4122db66cb3495a3c35">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\AndroidSwipeLayout-v1.1.8-f13c9573cdaff0b84db4972fc2260cbdf7fd11fb.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\projects\profileModule\unspecified\jars\libs\httpcore-nio-4.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="692c89f8325ea79072c652f8819a298f71ab0278">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\httpcore-nio-4.3-d03b887a062539c7671857aa7e2368cc4e537b17.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\projects\profileModule\unspecified\jars\libs\commons-codec-1.6.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b7f0fc8f61ecadeb3695f0b9464755eee44374d4">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\commons-codec-1.6-7ec9ca8561d81a07c3cb3cdc52998122631dd8af.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1ff30fa49c07a08c3035d7218a3efebf5680d522">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\classes-330d8c4ee04895714d983a381da53400dcc7c3f3.jar" />
+    </item>
+    <item
+        jar="D:\projects\livePrice\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
+        <dex dex="D:\projects\livePrice\build\intermediates\pre-dexed\debug\classes-70efeed3132f6c68c8a299701ffc14f636bee403.jar" />
+    </item>
+
+</items>

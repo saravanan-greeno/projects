@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF" >
+    
+
+         
+    <TextView
+        android:id="@+id/alertMessage"
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:textSize="24dp"
+        android:textColor="#000000"/>
+        
+         
+        <LinearLayout
+        android:id="@+id/changeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" 
+        android:textColor="#ffffff">
+    
+   <Button  
+        android:id="@+id/noButton"  
+        android:layout_height="40dp" 
+        android:layout_width="0dp"
+        android:layout_weight="1" 
+        android:background="@drawable/reset_button" 
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="#ffffff"
+        android:text="No" /> 
+        <!--  android:background="@drawable/button_press_dialog" -->
+        <Button  
+        android:id="@+id/yesButton"  
+        android:layout_height="40dp" 
+        android:layout_width="0dp"
+        android:layout_weight="1"  
+        android:background="@drawable/save_button" 
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="#ffffff"
+        android:text="Yes" />
+        
+        </LinearLayout>
+        
+        <LinearLayout
+        android:id="@+id/changeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal" 
+        android:textColor="#ffffff"/>
+</LinearLayout>

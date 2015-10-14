@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <!-- Login  -->
+    <dimen name="login_content_top_margin">30dp</dimen>
+    <dimen name="layoutMarginTop">8dp</dimen>
+    <dimen name="layoutMarginBottom">8dp</dimen>
+    
+    <!-- Commodity List  - Saravanan -->
+    <dimen name="listview_commodityname">29dp</dimen>
+    <dimen name="listview_varietyname">15dp</dimen>
+    <dimen name="listview_price">38dp</dimen>
+    <dimen name="listview_rupee">38dp</dimen>
+    <dimen name="listview_unit">36dp</dimen>
+    <dimen name="listview_date">14dp</dimen>
+    <dimen name="listview_title">27dp</dimen>
+
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="ua_activity_horizontal_margin">16dp</dimen>
+    <dimen name="ua_activity_vertical_margin">16dp</dimen>
+
+    <!-- Login  -->
+    <dimen name="ua_login_content_top_margin">20dp</dimen>
+    <dimen name="ua_layoutMarginTop">8dp</dimen>
+    <dimen name="ua_layoutMarginBottom">8dp</dimen>
+    <dimen name="ua_forgot_pwd_text_size">16dp</dimen>
+
+    <dimen name="ua_appLogoMarginBottom">10dp</dimen>
+
+    <!-- Forgot Password -->
+    <dimen name="ua_frg_pwd_left_margin">15dp</dimen>
+    <dimen name="ua_frg_pwd_right_margin">15dp</dimen>
+    <dimen name="ua_forgot_pwd_text_size_large">15dp</dimen>
+
+    <!-- Verify OTC -->
+
+    <!-- User Policy  -->
+    <dimen name="ua_layoutMarginBottomExtra">15dp</dimen>
+    <dimen name="ua_webview_height">150dp</dimen>
+
+
+</resources>
